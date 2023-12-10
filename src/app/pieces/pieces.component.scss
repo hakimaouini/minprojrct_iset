@@ -1,0 +1,29 @@
+.form-container {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 50px auto; /* Centrage du formulaire sur la page */
+    padding: 20px; /* Espace intérieur du conteneur */
+    border: 1px solid #ccc; /* Bordure du conteneur */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+ 
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+ 

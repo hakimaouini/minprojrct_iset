@@ -1,0 +1,57 @@
+
+
+<br>
+<br>
+<br>
+<br>
+<form [formGroup]="piece" (ngSubmit)="onSubmit()">
+    <label for="name">id :</label>
+    <input type="text" id="id" formControlName="id">
+  
+    <label for="id">name:</label>
+    <input type="text" id="champ2" formControlName="name">
+    
+    <label for="marque">marque</label>
+    <input type="text" id="marque" formControlName="marque">
+  
+    <!-- Ajoutez d'autres champs ici -->
+  
+    <button type="submit">Soumettre</button>
+  </form>
+  
+
+<table>
+        <thead>
+          <tr>
+            <th>*</th>
+            <th>id</th>
+            <th>nom</th>
+            <th>marque</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let msg of monTableau;let i=index">
+            <td>{{i}}</td>
+            <td>{{msg.id}}</td>
+            <td>{{msg.name}}</td>
+            <td>{{msg.marque}}</td>
+          </tr>
+         
+        </tbody>
+      </table> 
+
+
+    <!-- <div class="flex-container"*ngIf="issubmeted">
+
+        <app-piece-details
+        *ngFor="let msg of piece;let i=index"
+        [message]="msg"
+        [index]="i"
+     
+        
+        ></app-piece-details>
+      </div>
+      {{monTableau}}
+   
+      
+    <div>-->

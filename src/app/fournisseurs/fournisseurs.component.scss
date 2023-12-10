@@ -1,0 +1,40 @@
+/* Styles pour le conteneur du formulaire */
+.form-container {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 50px auto; /* Centrage du formulaire sur la page */
+    padding: 20px; /* Espace intérieur du conteneur */
+    border: 1px solid #ccc; /* Bordure du conteneur */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Styles pour les étiquettes (labels) du formulaire */
+  form label {
+    display: block; /* Affichage en bloc pour chaque étiquette */
+    margin-bottom: 8px; /* Marge en bas de chaque étiquette */
+  }
+  
+  /* Styles pour les champs de saisie (input) et la zone de texte (textarea) */
+  form input, form textarea {
+    width: 100%; /* Largeur totale */
+    padding: 10px; /* Espace intérieur */
+    margin-bottom: 16px; /* Marge en bas */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+  }
+  
+  /* Style pour le bouton de soumission (submit) */
+  form input[type="submit"] {
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    cursor: pointer; /* Curseur pointer au survol */
+    border: none; /* Suppression de la bordure */
+    border-radius: 4px; /* Coins arrondis */
+    padding: 12px; /* Espace intérieur */
+  }
+  
+  /* Changement de couleur du bouton au survol */
+  form input[type="submit"]:hover {
+    background-color: #2980b9; /* Nouvelle couleur de fond au survol */
+  }
+  

@@ -1,0 +1,39 @@
+
+
+.navbar {
+    background-color: #3498db; /* Couleur de fond de la barre de navigation */
+    padding: 15px; /* Espace intérieur de la barre de navigation */
+  }
+  
+  /* Style pour la liste non ordonnée (ul) de la barre de navigation */
+  .navbar ul {
+    list-style: none; /* Supprimer les puces de la liste */
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-around; /* Répartir l'espace entre les éléments */
+  }
+  
+  /* Styles pour les liens dans la barre de navigation */
+  .navbar a {
+  
+  
+  
+  
+  
+    color: #fff; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprimer la soulignement par défaut des liens */
+    font-size: 18px; /* Taille de la police des liens */
+    padding: 10px 20px; /* Espace autour des liens */
+    border-radius: 5px; /* Coins arrondis pour un aspect plus esthétique            */
+    transition: background-color 0.3s ease; /* Transition douce de la couleur de fond au survol */
+  }
+  
+  /* Change la couleur du texte des liens et la couleur de fond au survol */
+  .navbar a:hover {
+    color: #3498db; /* Nouvelle couleur du texte au survol */
+    background-color: #fff; /* Nouvelle couleur de fond au survol */
+  }
+  
+  /* Ajouter une ombre légère à la barre de navigation */
+  .navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }     
